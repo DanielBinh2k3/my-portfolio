@@ -84,7 +84,10 @@ threejs-portfolio/
   |- .gitignore
   |- .prettierrc
   |- bun.lockb
+  |- download_icons.py
   |- eslint.config.js
+  |- extracted_cv.txt
+  |- find_unused.py
   |- index.html
   |- netlify.toml
   |- package-lock.json
