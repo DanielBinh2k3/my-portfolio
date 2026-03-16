@@ -56,11 +56,14 @@ threejs-portfolio/
       |--- Developer.tsx
       |--- HackerRoom.tsx
       |--- HeroCamera.tsx
+      |--- LoadingScreen.tsx
       |--- ReactLogo.tsx
       |--- Rings.tsx
       |--- Target.tsx
     |-- constants/
       |--- index.ts
+    |-- hooks/
+      |--- useInView.ts
     |-- lib/
       |--- utils.ts
     |-- sections/
@@ -84,6 +87,7 @@ threejs-portfolio/
   |- eslint.config.js
   |- index.html
   |- netlify.toml
+  |- package-lock.json
   |- package.json
   |- postcss.config.js
   |- tailwind.config.js
