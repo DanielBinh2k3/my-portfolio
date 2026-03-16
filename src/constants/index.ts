@@ -80,22 +80,22 @@ export const myProjects = [
       {
         id: 1,
         name: "Python",
-        path: "/assets/react.svg",
+        path: "/assets/python_new.svg",
       },
       {
         id: 2,
         name: "LLM / LoRA",
-        path: "/assets/typescript.png",
+        path: "/assets/huggingface.svg",
       },
       {
         id: 3,
         name: "RAG",
-        path: "/assets/tailwindcss.png",
+        path: "/assets/langchain_new.svg",
       },
       {
         id: 4,
         name: "Multi-Agent",
-        path: "/assets/framer.png",
+        path: "/assets/streamlit.svg",
       },
     ],
   },
@@ -117,22 +117,22 @@ export const myProjects = [
       {
         id: 1,
         name: "Python",
-        path: "/assets/react.svg",
+        path: "/assets/python_new.svg",
       },
       {
         id: 2,
-        name: "Mamba / Transformer",
-        path: "/assets/typescript.png",
+        name: "MambaFormer",
+        path: "/assets/pytorch.svg",
       },
       {
         id: 3,
         name: "Adversarial Learning",
-        path: "/assets/tailwindcss.png",
+        path: "/assets/huggingface.svg",
       },
       {
         id: 4,
         name: "NLP",
-        path: "/assets/framer.png",
+        path: "/assets/openai.png",
       },
     ],
   },
@@ -156,7 +156,7 @@ export const myProjects = [
       {
         id: 1,
         name: "FastAPI",
-        path: "/assets/react.svg",
+        path: "/assets/fastapi_new.svg",
       },
       {
         id: 2,
@@ -166,12 +166,12 @@ export const myProjects = [
       {
         id: 3,
         name: "LightGBM / Llama 3",
-        path: "/assets/typescript.png",
+        path: "/assets/meta.svg",
       },
       {
         id: 4,
         name: "Google Cloud",
-        path: "/assets/tailwindcss.png",
+        path: "/assets/googlecloud.svg",
       },
     ],
   },
@@ -193,22 +193,22 @@ export const myProjects = [
       {
         id: 1,
         name: "Python",
-        path: "/assets/react.svg",
+        path: "/assets/python_new.svg",
       },
       {
         id: 2,
         name: "LLM Agents",
-        path: "/assets/typescript.png",
+        path: "/assets/openai.png",
       },
       {
         id: 3,
         name: "Facebook API",
-        path: "/assets/tailwindcss.png",
+        path: "/assets/meta.svg",
       },
       {
         id: 4,
         name: "Instagram API",
-        path: "/assets/framer.png",
+        path: "/assets/instagram_new.svg",
       },
     ],
   },
@@ -230,23 +230,60 @@ export const myProjects = [
       {
         id: 1,
         name: "Python",
-        path: "/assets/react.svg",
+        path: "/assets/python_new.svg",
       },
       {
         id: 2,
         name: "LLM",
-        path: "/assets/typescript.png",
+        path: "/assets/openai.png",
       },
       {
         id: 3,
         name: "Qdrant",
-        path: "/assets/tailwindcss.png",
+        path: "/assets/langchain_new.svg",
       },
       {
         id: 4,
         name: "RAG",
-        path: "/assets/framer.png",
+        path: "/assets/docker.png",
       },
+    ],
+  },
+  {
+    title: "Real Estate Appraisal Data Pipeline",
+    desc: "Contributed to the Real Estate Appraisal project at Pervasel by significantly enhancing data processing capabilities. Designed data extraction and refinement models crucial for feeding real estate valuation systems.",
+    subdesc:
+      "An intelligent pipeline engineered to elevate the scale and accuracy of data processing structures used in real-world ML property appraisal systems.",
+    href: "https://www.danieltruong-ai.com",
+    texture: "/textures/project/project6.mp4",
+    logo: "/assets/project-logo6.png",
+    logoStyle: {
+      backgroundColor: "#1C1A43",
+      border: "0.2px solid #252262",
+      boxShadow: "0px 0px 60px 0px #635BFF4D",
+    },
+    spotlight: "/assets/spotlight5.png",
+    tags: [
+      {
+        id: 1,
+        name: "Python",
+        path: "/assets/python_new.svg",
+      },
+      {
+        id: 2,
+        name: "Data Processing",
+        path: "/assets/docker.png",
+      },
+      {
+        id: 3,
+        name: "Machine Learning",
+        path: "/assets/openai.png",
+      },
+      {
+        id: 4,
+        name: "Machine Learning",
+        path: "/assets/fastapi_new.svg",
+      }
     ],
   },
 ] as const;
@@ -259,7 +296,7 @@ export const workExperiences = [
     duration: "Dec 2024 - Present",
     title:
       "Led development of a Sales Bot Agent for Facebook & Instagram — designed the full sales workflow, optimized LLM system prompts, and integrated product search & ordering tools. Also built a TikTok Policy Chatbot using LLMs + Qdrant vector database to automate compliance checks.",
-    icon: "/assets/terminal.png",
+    icon: "/assets/docker.svg",
     animation: "victory",
   },
   {
@@ -269,7 +306,7 @@ export const workExperiences = [
     duration: "Jun 2024 - Dec 2024",
     title:
       "Conducted research on AI-generated text detection by fusing the MambaFormer model with adversarial learning. Received the Excellent Presentation Award at the Asia-Pacific Workshop on Intelligent Engineering (APWIE).",
-    icon: "/assets/typescript.png",
+    icon: "/assets/research.png",
     animation: "clapping",
   },
   {

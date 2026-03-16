@@ -73,9 +73,13 @@ export const Projects = () => {
               {currentProject.tags.map((tag) => (
                 <div
                   key={`${currentProject.title}-${tag.name}`}
-                  className="tech-logo"
+                  className="tech-logo group relative flex items-center justify-center"
                 >
-                  <img src={tag.path} alt={tag.name} />
+                  <img 
+                    src={tag.path} 
+                    alt={tag.name} 
+                    className="w-full h-full object-contain drop-shadow-sm transition-transform duration-300 group-hover:scale-110" 
+                  />
                 </div>
               ))}
             </div>

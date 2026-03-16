@@ -114,100 +114,108 @@ export const Contact = () => {
 
   return (
     <section className="c-space my-20" id="contact">
-      <div className="relative flex min-h-screen flex-col items-center justify-center">
-        <img
-          src="/assets/terminal.png"
-          alt="Terminal"
-          className="absolute inset-0 h-full min-h-screen"
-        />
+      <div className="contact-shell">
+        <div className="contact-terminal">
+          <div className="contact-terminal_bar">
+            <div className="contact-terminal_lights" aria-hidden="true">
+              <span className="contact-terminal_light bg-[#ff5f57]" />
+              <span className="contact-terminal_light bg-[#febc2e]" />
+              <span className="contact-terminal_light bg-[#28c840]" />
+            </div>
 
-        <div className="contact-container">
-          <h3 className="head-text">Let&apos;s talk</h3>
+            <span className="contact-terminal_plus" aria-hidden="true">
+              +
+            </span>
+          </div>
 
-          <p className="mt-2 text-sm text-white-600 sm:text-base">
-            Whether you&apos;re looking to build an AI-powered solution, explore
-            LLM applications, or collaborate on a research project, I&apos;m
-            here to help.
-          </p>
+          <div className="contact-container">
+            <h3 className="head-text">Let&apos;s talk</h3>
 
-          <form
-            ref={formRef}
-            onSubmit={(e) => void handleSubmit(e)}
-            className="mt-6 flex flex-col space-y-4"
-          >
-            <label className="space-y-3">
-              <span className="field-label">Full name</span>
+            <p className="mt-2 max-w-2xl text-sm text-white-600 sm:text-base">
+              Whether you&apos;re looking to build an AI-powered solution,
+              explore LLM applications, or collaborate on a research project,
+              I&apos;m here to help.
+            </p>
 
-              <input
-                type="text"
-                name="name"
-                value={form.name}
-                onChange={handleChange}
-                className="field-input disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-75"
-                placeholder="John Doe"
-                autoCapitalize="on"
-                disabled={isLoading}
-              />
-
-              <span className="hidden text-red-400" id="name-error">
-                Invalid Name!
-              </span>
-            </label>
-
-            <label className="space-y-3">
-              <span className="field-label">Email</span>
-
-              <input
-                type="email"
-                name="email"
-                value={form.email}
-                onChange={handleChange}
-                className="field-input disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-75"
-                placeholder="john.doe@email.com"
-                autoCapitalize="off"
-                disabled={isLoading}
-              />
-
-              <span className="hidden text-red-400" id="email-error">
-                Invalid Email!
-              </span>
-            </label>
-
-            <label className="space-y-3">
-              <span className="field-label">Your message</span>
-
-              <textarea
-                name="message"
-                value={form.message}
-                onChange={handleChange}
-                rows={4}
-                className="field-input disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-75"
-                placeholder="Hi, I'm interested in..."
-                autoCapitalize="on"
-                disabled={isLoading}
-              />
-
-              <span className="hidden text-red-400" id="message-error">
-                Invalid Message!
-              </span>
-            </label>
-
-            <button
-              type="submit"
-              className="field-btn disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-75"
-              disabled={isLoading}
+            <form
+              ref={formRef}
+              onSubmit={(e) => void handleSubmit(e)}
+              className="mt-6 flex flex-col space-y-4"
             >
-              {isLoading ? "Sending..." : "Send Message"}
+              <label className="space-y-3">
+                <span className="field-label">Full name</span>
 
-              {!isLoading && (
-                <img
-                  src="/assets/arrow-up.png"
-                  alt="Arrow"
-                  className="field-btn_arrow"
+                <input
+                  type="text"
+                  name="name"
+                  value={form.name}
+                  onChange={handleChange}
+                  className="field-input disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-75"
+                  placeholder="John Doe"
+                  autoCapitalize="on"
+                  disabled={isLoading}
                 />
-              )}
-            </button>
-          </form>
+
+                <span className="hidden text-red-400" id="name-error">
+                  Invalid Name!
+                </span>
+              </label>
+
+              <label className="space-y-3">
+                <span className="field-label">Email</span>
+
+                <input
+                  type="email"
+                  name="email"
+                  value={form.email}
+                  onChange={handleChange}
+                  className="field-input disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-75"
+                  placeholder="john.doe@email.com"
+                  autoCapitalize="off"
+                  disabled={isLoading}
+                />
+
+                <span className="hidden text-red-400" id="email-error">
+                  Invalid Email!
+                </span>
+              </label>
+
+              <label className="space-y-3">
+                <span className="field-label">Your message</span>
+
+                <textarea
+                  name="message"
+                  value={form.message}
+                  onChange={handleChange}
+                  rows={4}
+                  className="field-input resize-none disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-75"
+                  placeholder="Hi, I'm interested in..."
+                  autoCapitalize="on"
+                  disabled={isLoading}
+                />
+
+                <span className="hidden text-red-400" id="message-error">
+                  Invalid Message!
+                </span>
+              </label>
+
+              <button
+                type="submit"
+                className="field-btn disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-75"
+                disabled={isLoading}
+              >
+                {isLoading ? "Sending..." : "Send Message"}
+
+                {!isLoading && (
+                  <img
+                    src="/assets/arrow-up.png"
+                    alt="Arrow"
+                    className="field-btn_arrow"
+                  />
+                )}
+              </button>
+            </form>
+          </div>
         </div>
       </div>
     </section>

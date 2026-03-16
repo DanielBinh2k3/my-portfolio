@@ -18,7 +18,7 @@ export const Navbar = () => {
         </li>
       ))}
 
-      <li className="nav-li">
+      {/* <li className="nav-li">
         <a
           href={links.sourceCode}
           target="_blank"
@@ -28,7 +28,7 @@ export const Navbar = () => {
         >
           Source Code
         </a>
-      </li>
+      </li> */}
     </ul>
   );
 

@@ -1,0 +1,108 @@
+RESUME  
+ 
+ 
+ Name  Trương Nguy ễn Gia Bình  
+Date of Birth  07/11/2003  
+Home Address  Imperia Garden Building, Thanh Xuan, Ha Noi  
+Linkedin URL  https://www.linkedin.com/in/truongnguyengiabinh/   
+Home Page  https://www.danieltruong -ai.com /   
+Contact Number  0377345321  
+ 
+EDUCATION  
+PERIOD (YYYY/MM)  SCHOOL  MAJOR  
+2021.10– 2024.12  FPT University  Artificial Intelligent (GPA: 3.5/4)  
+2018.09– 2021.05   High School for Gifted Student  Chemistry (GPA: 9.2)  
+ 
+ 
+EXPERIENCE  
+PERIOD (YYYY/MM)  COMPANY  TASK  
+- Now Pervasel– Karve Meilleur  AI Engineer  
+▪ Led the development of a Sales Bot Agent for social platforms
+(Facebook, Instagram); designed the sales workflow, optimized
+system prompts, and integrated product search and ordering
+tools.  
+▪ Developed a TikTok Policy Chatbot leveraging LLMs and Qdrant
+vector database to automate policy compliance checks.  
+▪ Contributed to the Real Estate Appraisal project, enhancing data
+processing capabilities.  
+08.2024 -12.2024  National Chung Cheng
+University  Intern Researcher  
+• Selected through the Taiwan Experience Education Program
+(TEEP) to research AI  
+• Conducted research on applying adversarial learning and    the
+MambaFormer model to enhance AI -generated text
+detection.  
+•Explored interdisciplinary applications of AI in cybersecurity,
+focusing on innovative methodologies.  
+• Delivered an award -winning presentation at APWIE,
+showcasing the outcomes of an excellent internship.  
+2023.08– 2023.12  Techcombank  Data Governance Intern  
+▪ Collaborated with the Metadata Team to label internal banking
+rules on the Collibra platform.  
+▪ Automated the data labeling process by building custom scripts,
+significantly improving efficiency compared to traditional manual
+methods.  
+2023.04– 2023.07.  Zinza Company  Python Developer Intern  
+• Successfully contributed to the development of a house
+management website, employing React.js and Django.  
+• Demonstrated proficiency in Docker and Gitlab, effectively
+streamlining the development process.  
+ 
+ 
+ 
+ 
+ 
+12.2024
+PROJECT  
+PERIOD (YYYY/MM)  DESCRIPTION  
+2024.08 – 2024.12  Vietnamese Legal Assistant Framework (Capstone Project FPT University)  
+Link code: https://github.com/DaiTaVan/AIP491 -G8-Graduation -Thesis/tree/main   
+Link: https://fpt.edu.vn/tin -tuc/fpt -edu-tin-tuc-chung/sinh -vien-truong -dh-fpt-ha-noi-phat -trien -tro-
+ly-ai-phap -ly 
+● Legal Benchmark : Designed and implemented a Vietnamese Legal Benchmark based 
+on Bloom's taxonomy, covering legal knowledge memorization, understanding, and 
+application.  
+● Instruction -Based Fine -Tuning of LLMs : Applied Low -Rank Adaptation (LoRA) for 
+efficient fine -tuning of the Qwen -7B-Instruct model, optimizing its performance for 
+legal reasoning and reducing computational costs.  
+● Advanced Retrieval System : Integrated a Retrieval -Augmented Generation (RAG) 
+framework with an optimized embedding model for precise legal document retrieval 
+and context -aware responses.  
+● Legal Consultation Framework : Designed a multi -agent system with specialized roles 
+(e.g., legal researcher, legal editor) for structured and efficient legal consultations.  
+2024.08 – 2024.12  Enhancing AI Text Detection through MambaFormer and Adversarial Learning  
+Presented at: Asia -Pacific Workshop on Intelligent Engineering (APWIE)  
+Research Objective : Enhance language model accuracy and resilience against diverse writing styles 
+and cross -domain content. Integrate advanced techniques such as adversarial learning, model 
+fusion, to create a more adaptive and high -performing detection system.  
+Key Contributions:  
+• Explored a fusion of Mamba model and Attention mechanisms, which showed promise 
+for enhancing downstream tasks like AI -generated text detection  
+• Integrated adversarial learning techniques to improve detection accuracy.  
+• Implemented and compared the MambaFormer model with previous research 
+approaches (RADAR, DetectGPT, Fast -DetectGPT).  
+ 2024.03 – 2024.07  Web Auto Grading Essay Scoring  
+Presented at: FPTU RiseUP | Student Showcase Summer 2024  
+Link: https://www.facebook.com/share/KAw9QRWR87Vm4q8A/  
+● Develop a web -based platform for automatic IELTS essay scoring, leveraging AI to 
+assist users in improving their IELTS writing scores.  
+● Advance the development of a web service  and API server utilizing FastAPI and 
+React.js. Deployed AI models and web services using Google Cloud Service.  
+● Implement feature extraction and model LightGBM , alongside an embedding model 
+to enhance contextual understanding and improve scoring IELTS accuracy.  
+● Applied a Self -Retrieving Augmented Generation (Self -RAG)  approach using Llama 3 
+for generating feedback in grading essay’s performance.  
+● Technologies Used : 
+o Machine Learning: LightGBM (LGBM), XGBoost  
+o Embedding Model: bge -m3, e5 -large  
+o Large Language Model: Llama 3  
+o Data Crawling: Selenium, BeautifulSoup  
+o Data Processing: SpaCy, NumPy, Pandas  
+ 
+CERTIFICATE & AWARDS  
+CATEGORY  DESCRIPTION  
+CERTIFICATE  ● Excellent Presentation Award at Asia -Pacific Workshop on Intelligent Engineering  
+● Excellent Intern in National Chung Cheng University  
+● IBM Professional certificate in Data Science, IBM Full Stack Software Developer  
+● IELTS 7.0  
+ 

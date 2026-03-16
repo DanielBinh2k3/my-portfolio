@@ -125,8 +125,36 @@ body {
   }
 
   /* contact section */
+  .contact-shell {
+    @apply mx-auto flex min-h-screen w-full max-w-5xl items-center justify-center py-10;
+  }
+
+  .contact-terminal {
+    @apply relative w-full overflow-hidden rounded-[28px] border border-white/10 bg-black-200/95 shadow-[0_25px_90px_rgba(0,0,0,0.45)];
+    background-image:
+      radial-gradient(circle at top left, rgba(255, 255, 255, 0.08), transparent 22%),
+      linear-gradient(180deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.02));
+  }
+
+  .contact-terminal_bar {
+    @apply flex items-center justify-between border-b border-white/10 px-4 py-3 sm:px-5;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.14), rgba(255, 255, 255, 0.04));
+  }
+
+  .contact-terminal_lights {
+    @apply flex items-center gap-2;
+  }
+
+  .contact-terminal_light {
+    @apply size-3 rounded-full shadow-[0_0_18px_rgba(255,255,255,0.12)];
+  }
+
+  .contact-terminal_plus {
+    @apply text-xl font-light leading-none text-white/35;
+  }
+
   .contact-container {
-    @apply relative z-10 w-full max-w-xl px-5 sm:px-10;
+    @apply relative z-10 ml-auto w-full max-w-2xl px-5 py-8 sm:px-10 sm:py-12 lg:px-14;
   }
 
   .field-label {
@@ -134,11 +162,11 @@ body {
   }
 
   .field-input {
-    @apply min-h-11 w-full rounded-lg bg-black-300 px-5 py-2 text-base text-white-800 shadow-2xl shadow-black-200 placeholder:text-white-500 focus:outline-none;
+    @apply min-h-11 w-full rounded-lg border border-white/5 bg-black-300 px-5 py-3 text-base text-white-800 shadow-2xl shadow-black-200 placeholder:text-white-500 focus:border-white/15 focus:outline-none;
   }
 
   .field-btn {
-    @apply flex min-h-10 items-center justify-center gap-3 rounded-lg bg-black-500 px-5 py-2 text-base text-white shadow-2xl shadow-black-200;
+    @apply flex min-h-10 items-center justify-center gap-3 rounded-lg bg-black-500 px-5 py-3 text-base text-white shadow-2xl shadow-black-200 transition-transform hover:-translate-y-0.5;
   }
 
   .field-btn_arrow {
@@ -167,6 +195,16 @@ body {
     rgba(255, 255, 255, 0.000025) 50%,
     rgba(255, 255, 255, 0.025) 100%
   );
+}
+
+@media (max-width: 768px) {
+  .contact-shell {
+    @apply min-h-0 py-0;
+  }
+
+  .contact-container {
+    @apply max-w-none px-5 py-6;
+  }
 }
 
 @keyframes wave-animation {

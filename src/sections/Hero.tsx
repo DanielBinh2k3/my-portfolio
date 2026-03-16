@@ -1,4 +1,4 @@
-import { PerspectiveCamera } from "@react-three/drei";
+import { PerspectiveCamera, OrbitControls } from "@react-three/drei";
 import { Canvas, type Vector3 } from "@react-three/fiber";
 import { Suspense } from "react";
 import { useMediaQuery } from "react-responsive";
@@ -6,7 +6,6 @@ import { useMediaQuery } from "react-responsive";
 import { Button } from "../components/Button";
 import { CanvasLoader } from "../components/CanvasLoader";
 import { Cube } from "../components/Cube";
-import { HeroCamera } from "../components/HeroCamera";
 import { HackerRoom } from "../components/HackerRoom";
 import { ReactLogo } from "../components/ReactLogo";
 import { Rings } from "../components/Rings";
@@ -42,15 +41,15 @@ export const Hero = () => {
           performance={{ min: 0.5 }}
         >
           <Suspense fallback={<CanvasLoader />}>
-            <PerspectiveCamera makeDefault position={[0, 0, 30]} />
+            <PerspectiveCamera makeDefault position={[0, 0, 20]} />
 
-            <HeroCamera isMobile={isMobile}>
+            <group>
               <HackerRoom
                 scale={sizes.deskScale}
                 position={sizes.deskPosition as Vector3}
                 rotation={[0.1, -Math.PI, 0]}
               />
-            </HeroCamera>
+            </group>
 
             <group>
               <Target position={sizes.targetPosition as Vector3} />
@@ -64,6 +63,8 @@ export const Hero = () => {
             <ambientLight intensity={1} />
             <directionalLight position={[10, 10, 10]} intensity={0.5} />
           </Suspense>
+
+          <OrbitControls maxPolarAngle={Math.PI / 2} enableZoom={false} />
         </Canvas>
       </div>
 
