@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import { links, navLinks } from "../constants";
+import { navLinks } from "../constants";
 import { cn } from "../lib/utils";
 
 export const Navbar = () => {
