@@ -89,6 +89,7 @@ threejs-portfolio/
   |- extracted_cv.txt
   |- find_unused.py
   |- index.html
+  |- logo_D_B.png
   |- netlify.toml
   |- package-lock.json
   |- package.json
