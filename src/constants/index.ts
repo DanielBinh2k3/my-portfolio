@@ -29,35 +29,35 @@ export const navLinks = [
 export const clientReviews = [
   {
     id: 1,
-    name: "Emily Johnson",
-    position: "Marketing Director at GreenLeaf",
+    name: "Lo Quang Tinh",
+    position: "CTO at Pervasel",
     img: "/assets/review1.png",
     review:
-      "Working with Gia Binh was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any AI & web dev projects.",
+      "Binh is a dedicated and passionate engineer — he always puts in the effort and consistently meets deadlines no matter how tight the schedule. What truly sets him apart is his resilience under pressure and his exceptional presentation skills. He can clearly communicate complex technical ideas to both technical and non-technical stakeholders, which is a rare and invaluable quality in an engineer.",
   },
   {
     id: 2,
-    name: "Mark Rogers",
-    position: "Founder of TechGear Shop",
+    name: "Duong Minh Quan",
+    position: "AI Specialist at Onemount",
     img: "/assets/review2.png",
     review:
-      "Gia Binh's expertise in AI engineering is truly impressive. He delivered a robust and scalable solution for our platform, and our automation capabilities have significantly improved since the launch. He's a true professional!",
+      "Gia Binh is a highly capable AI engineer with solid technical fundamentals and a genuine enthusiasm for problem-solving. What impressed me most was his collaborative spirit — he communicates openly, contributes actively in team discussions, and is always willing to support his colleagues. He brings both competence and a positive attitude to any team he joins.",
   },
   {
     id: 3,
-    name: "John Dohsas",
-    position: "Project Manager at UrbanTech",
+    name: "Nguyen Van Linh",
+    position: "Professor at National Chung Cheng University",
     img: "/assets/review3.png",
     review:
-      "I can't say enough good things about Gia Binh. He was able to take our complex AI project requirements and turn them into a seamless, functional system. His problem-solving abilities and research mindset are outstanding.",
+      "Binh was one of the most diligent and proactive interns I have had the pleasure of mentoring. He demonstrated a strong work ethic and was always eager to go beyond the task at hand. He adapted quickly to an international research environment and showed consistent growth throughout the program — both in technical depth and academic thinking. I have no doubt he will excel in whatever path he pursues.",
   },
   {
     id: 4,
-    name: "Ether Smith",
-    position: "CEO of BrightStar Enterprises",
+    name: "Nguyen Huu Luc",
+    position: "Team Leader, Data Governance at Techcombank",
     img: "/assets/review4.png",
     review:
-      "Gia Binh was a pleasure to work with. He understood our requirements perfectly and delivered an AI solution that exceeded our expectations. His skills in both LLM engineering and full-stack dev are top-notch.",
+      "Binh joined our Data Governance team as an intern and quickly stood out for his eagerness to learn and his disciplined work ethic. He never hesitated to ask insightful questions, took initiative on tasks beyond his assigned scope, and always delivered quality work on time. His curiosity and commitment to self-improvement are qualities that will serve him well throughout his career.",
   },
 ] as const;
 
@@ -296,7 +296,7 @@ export const workExperiences = [
     duration: "Dec 2024 - Present",
     title:
       "Led development of a Sales Bot Agent for Facebook & Instagram — designed the full sales workflow, optimized LLM system prompts, and integrated product search & ordering tools. Also built a TikTok Policy Chatbot using LLMs + Qdrant vector database to automate compliance checks.",
-    icon: "/assets/docker.svg",
+    icon: "/assets/pervasel.png",
     animation: "victory",
   },
   {
@@ -306,7 +306,7 @@ export const workExperiences = [
     duration: "Jun 2024 - Dec 2024",
     title:
       "Conducted research on AI-generated text detection by fusing the MambaFormer model with adversarial learning. Received the Excellent Presentation Award at the Asia-Pacific Workshop on Intelligent Engineering (APWIE).",
-    icon: "/assets/research.png",
+    icon: "/assets/national_chung_cheng.png",
     animation: "clapping",
   },
   {
@@ -316,18 +316,8 @@ export const workExperiences = [
     duration: "Jul 2023 - Dec 2023",
     title:
       "Collaborated with the Metadata Team to label internal banking rules on the Collibra platform. Automated the data-labeling workflow with custom scripts, significantly reducing manual effort and improving team efficiency.",
-    icon: "/assets/notion.svg",
+    icon: "/assets/techcombank.png",
     animation: "salute",
-  },
-  {
-    id: 4,
-    name: "Zinza Company",
-    pos: "Python Developer Intern",
-    duration: "Mar 2023 - Jul 2023",
-    title:
-      "Contributed to a house-management web platform using React.js and Django. Streamlined the development pipeline by working with Docker and GitLab CI/CD, gaining hands-on experience in full-stack delivery.",
-    icon: "/assets/react.svg",
-    animation: "idle",
   },
 ] as const;
 

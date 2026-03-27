@@ -86,7 +86,7 @@ export const Contact = () => {
         import.meta.env.VITE_APP_TEMPLATE_ID,
         {
           from_name: form.name,
-          to_name: "Gia Bình",
+          to_name: "Gia Binh",
           from_email: form.email,
           to_email: import.meta.env.VITE_APP_EMAIL,
           message: form.message,

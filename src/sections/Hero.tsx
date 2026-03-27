@@ -25,7 +25,7 @@ export const Hero = () => {
     <section className="relative flex min-h-screen w-full flex-col">
       <div className="c-space mx-auto mt-20 flex w-full flex-col gap-3 sm:mt-36">
         <p className="text-center font-generalsans text-xl font-medium text-white sm:text-3xl">
-          Hi, I am Gia Bình <span className="waving-hand">👋</span>
+          Hi, I am Gia Binh <span className="waving-hand">👋</span>
         </p>
 
         <p className="hero_tag text-gray_gradient">

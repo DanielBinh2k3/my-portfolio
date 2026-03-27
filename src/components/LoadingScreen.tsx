@@ -111,7 +111,7 @@ export const LoadingScreen = ({ onComplete }: LoadingScreenProps) => {
 
       {/* Top left Logo */}
       <div className="top-logo absolute top-8 left-8">
-         <span className="font-bold text-black text-xl tracking-widest uppercase">Gia Bình</span>
+        <img src="/logo_D_B.png" alt="Gia Binh Logo" className="h-10 w-auto object-contain" />
       </div>
     </div>
   );

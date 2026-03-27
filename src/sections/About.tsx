@@ -1,20 +1,12 @@
-import { useState } from "react";
+
 import Globe from "react-globe.gl";
 
 import { Button } from "../components/Button";
 import { links } from "../constants";
 
 export const About = () => {
-  const [hasCopied, setHasCopied] = useState(false);
-
-  const handleCopy = () => {
-    void navigator.clipboard.writeText(links.contactEmail);
-
-    setHasCopied(true);
-
-    setTimeout(() => {
-      setHasCopied(false);
-    }, 2000);
+  const handleEmail = () => {
+    window.location.href = `mailto:${links.contactEmail}`;
   };
 
   return (
@@ -29,7 +21,7 @@ export const About = () => {
             />
 
             <div>
-              <p className="grid-headtext">Hi, I&apos;m Gia Bình</p>
+              <p className="grid-headtext">Hi, I&apos;m Gia Binh</p>
               <p className="grid-subtext">
                 AI Engineer with a strong background in LLMs, RAG, multi-agent
                 systems, and full-stack development. Passionate about building
@@ -129,13 +121,13 @@ export const About = () => {
               </p>
 
               <div className="copy-container">
-                <Button onClick={handleCopy} containerClass="w-full">
+                <Button onClick={handleEmail} containerClass="w-full">
                   <img
-                    src={hasCopied ? "/assets/tick.svg" : "/assets/copy.svg"}
-                    alt={hasCopied ? "Check" : "Copy"}
+                    src="/assets/copy.svg"
+                    alt="Email"
                     className="size-5"
                   />
-                  {hasCopied ? "Copied to clipboard" : "Copy Email"}
+                  Send me an Email
                 </Button>
               </div>
             </div>

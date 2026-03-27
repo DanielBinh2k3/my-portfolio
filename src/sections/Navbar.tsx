@@ -40,7 +40,7 @@ export const Navbar = () => {
             href="#"
             className="text-xl font-bold text-neutral-400 transition-colors hover:text-white"
           >
-            Gia Bình
+            Gia Binh
           </a>
 
           <button
